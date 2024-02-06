@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+      </script>
+      <!-- using AJAX to make a delete request. -->
+      <script>      
+        function makeDELETErequest() {
+            $.ajax({
+                url: '/database.php',
+                type: 'DELETE',
+                success: function (result) {
+                    
+                }
+            });
+        }
+    </script>
+    <title>Mutliply Numbers</title>
+<form action="/multiply" method="post"
+enctype="application/x-www-form-urlencoded">
+        <label for="fname">Number 1</label>
+        <input type="text" id="n1" name="number1">
+        <br><br>
+        <label for="lname">Number 2</label>
+        <input type="text" id="n2" name="number2">
+        <br><br>
+        <input type="submit" value="Submit">
+        
+</form>
+<button onclick="makeDELETErequest()">Delete</button>
+<br>
+<a href="https://google.com">GO/GOOGLE</a>
+</head>
+<body>
+    
+</body>
+</html>

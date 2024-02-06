@@ -1,0 +1,6 @@
+Subject: CS484 - I can program with sockets!
+Hello Rahul,
+Congratulations! If you are reading this in your email client, then something has gone right.
+
+Yours most faithfully,
+Rahul
